@@ -25,9 +25,7 @@ public class Post extends PanacheMongoEntity {
 
     public String getTitle() {return title;}
 
-    public String getContent() {
-        return content;
-    }
+    public String getContent() {return content;}
     public Long getTimestamp() {
         return timestamp;
     }
